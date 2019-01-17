@@ -10,6 +10,12 @@
 		2B8BF98B21F1011D009C1816 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF98A21F1011D009C1816 /* main.cpp */; };
 		2B8BF99F21F103C0009C1816 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF99D21F103C0009C1816 /* Component.cpp */; };
 		2B8BF9A521F103D2009C1816 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF9A321F103D2009C1816 /* EntityManager.cpp */; };
+		2B8BF9B521F10C78009C1816 /* SFML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9AF21F10C77009C1816 /* SFML.framework */; };
+		2B8BF9B621F10C78009C1816 /* sfml-network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9B021F10C77009C1816 /* sfml-network.framework */; };
+		2B8BF9B721F10C78009C1816 /* sfml-audio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9B121F10C77009C1816 /* sfml-audio.framework */; };
+		2B8BF9B821F10C78009C1816 /* sfml-graphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9B221F10C77009C1816 /* sfml-graphics.framework */; };
+		2B8BF9B921F10C78009C1816 /* sfml-system.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9B321F10C78009C1816 /* sfml-system.framework */; };
+		2B8BF9BA21F10C78009C1816 /* sfml-window.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B8BF9B421F10C78009C1816 /* sfml-window.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +39,14 @@
 		2B8BF9A121F103C8009C1816 /* System.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = System.hpp; sourceTree = "<group>"; };
 		2B8BF9A321F103D2009C1816 /* EntityManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EntityManager.cpp; sourceTree = "<group>"; };
 		2B8BF9A421F103D2009C1816 /* EntityManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EntityManager.hpp; sourceTree = "<group>"; };
+		2B8BF9A921F10AE7009C1816 /* Components.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Components.hpp; sourceTree = "<group>"; };
+		2B8BF9AC21F10B02009C1816 /* Systems.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Systems.hpp; sourceTree = "<group>"; };
+		2B8BF9AF21F10C77009C1816 /* SFML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SFML.framework; path = ../../../../Library/Frameworks/SFML.framework; sourceTree = "<group>"; };
+		2B8BF9B021F10C77009C1816 /* sfml-network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-network.framework"; path = "../../../../Library/Frameworks/sfml-network.framework"; sourceTree = "<group>"; };
+		2B8BF9B121F10C77009C1816 /* sfml-audio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-audio.framework"; path = "../../../../Library/Frameworks/sfml-audio.framework"; sourceTree = "<group>"; };
+		2B8BF9B221F10C77009C1816 /* sfml-graphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-graphics.framework"; path = "../../../../Library/Frameworks/sfml-graphics.framework"; sourceTree = "<group>"; };
+		2B8BF9B321F10C78009C1816 /* sfml-system.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-system.framework"; path = "../../../../Library/Frameworks/sfml-system.framework"; sourceTree = "<group>"; };
+		2B8BF9B421F10C78009C1816 /* sfml-window.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "sfml-window.framework"; path = "../../../../Library/Frameworks/sfml-window.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8BF9B521F10C78009C1816 /* SFML.framework in Frameworks */,
+				2B8BF9B621F10C78009C1816 /* sfml-network.framework in Frameworks */,
+				2B8BF9B721F10C78009C1816 /* sfml-audio.framework in Frameworks */,
+				2B8BF9B821F10C78009C1816 /* sfml-graphics.framework in Frameworks */,
+				2B8BF9B921F10C78009C1816 /* sfml-system.framework in Frameworks */,
+				2B8BF9BA21F10C78009C1816 /* sfml-window.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +71,7 @@
 			children = (
 				2B8BF98921F1011D009C1816 /* Dodge */,
 				2B8BF98821F1011D009C1816 /* Products */,
+				2B8BF9AE21F10C77009C1816 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2B8BF98A21F1011D009C1816 /* main.cpp */,
+				2B8BF9A721F10ABF009C1816 /* Header */,
 				2B8BF9A621F1093E009C1816 /* Ecs */,
 			);
 			path = Dodge;
@@ -82,6 +104,28 @@
 				2B8BF99B21F103B5009C1816 /* Ecs.hpp */,
 			);
 			path = Ecs;
+			sourceTree = "<group>";
+		};
+		2B8BF9A721F10ABF009C1816 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BF9A921F10AE7009C1816 /* Components.hpp */,
+				2B8BF9AC21F10B02009C1816 /* Systems.hpp */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		2B8BF9AE21F10C77009C1816 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BF9B121F10C77009C1816 /* sfml-audio.framework */,
+				2B8BF9B221F10C77009C1816 /* sfml-graphics.framework */,
+				2B8BF9B021F10C77009C1816 /* sfml-network.framework */,
+				2B8BF9B321F10C78009C1816 /* sfml-system.framework */,
+				2B8BF9B421F10C78009C1816 /* sfml-window.framework */,
+				2B8BF9AF21F10C77009C1816 /* SFML.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +309,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN3E4R864H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -274,6 +322,10 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RN3E4R864H;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

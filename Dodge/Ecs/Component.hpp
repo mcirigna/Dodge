@@ -100,16 +100,4 @@ namespace ecs
         return t;
     }
     
-    /* example usage */
-    
-    /*
-     
-     
-     
-     
-     
-     
-     
-     */
-    
 }
