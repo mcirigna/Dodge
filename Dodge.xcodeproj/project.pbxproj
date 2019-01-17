@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2B8BF98B21F1011D009C1816 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF98A21F1011D009C1816 /* main.cpp */; };
+		2B8BF99F21F103C0009C1816 /* Component.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF99D21F103C0009C1816 /* Component.cpp */; };
+		2B8BF9A521F103D2009C1816 /* EntityManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B8BF9A321F103D2009C1816 /* EntityManager.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,12 @@
 /* Begin PBXFileReference section */
 		2B8BF98721F1011D009C1816 /* Dodge */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Dodge; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8BF98A21F1011D009C1816 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2B8BF99B21F103B5009C1816 /* Ecs.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ecs.hpp; sourceTree = "<group>"; };
+		2B8BF99D21F103C0009C1816 /* Component.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Component.cpp; sourceTree = "<group>"; };
+		2B8BF99E21F103C0009C1816 /* Component.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Component.hpp; sourceTree = "<group>"; };
+		2B8BF9A121F103C8009C1816 /* System.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = System.hpp; sourceTree = "<group>"; };
+		2B8BF9A321F103D2009C1816 /* EntityManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EntityManager.cpp; sourceTree = "<group>"; };
+		2B8BF9A421F103D2009C1816 /* EntityManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EntityManager.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,22 @@
 			isa = PBXGroup;
 			children = (
 				2B8BF98A21F1011D009C1816 /* main.cpp */,
+				2B8BF9A621F1093E009C1816 /* Ecs */,
 			);
 			path = Dodge;
+			sourceTree = "<group>";
+		};
+		2B8BF9A621F1093E009C1816 /* Ecs */ = {
+			isa = PBXGroup;
+			children = (
+				2B8BF99D21F103C0009C1816 /* Component.cpp */,
+				2B8BF9A321F103D2009C1816 /* EntityManager.cpp */,
+				2B8BF99E21F103C0009C1816 /* Component.hpp */,
+				2B8BF9A421F103D2009C1816 /* EntityManager.hpp */,
+				2B8BF9A121F103C8009C1816 /* System.hpp */,
+				2B8BF99B21F103B5009C1816 /* Ecs.hpp */,
+			);
+			path = Ecs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B8BF98B21F1011D009C1816 /* main.cpp in Sources */,
+				2B8BF9A521F103D2009C1816 /* EntityManager.cpp in Sources */,
+				2B8BF99F21F103C0009C1816 /* Component.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
